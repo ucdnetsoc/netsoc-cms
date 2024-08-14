@@ -67,5 +67,5 @@ volumes:
 
 networks:
   netsoc-cms-net:
-    name: Netsoc-cms
+    name: netsoc-cms-net
     driver: bridge
