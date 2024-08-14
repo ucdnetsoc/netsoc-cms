@@ -29,9 +29,10 @@ docker build -t netsoc-dev-cms:latest -f Dockerfile .
 well, you'll know it because there aren't a bunch of errors on your screen :)
 
 5. Open the Strapi admin panel at `localhost:1337/admin` in your browser to 
-create an admin userfor yourself.
+create an admin user for yourself. It might take a minute for this to come
+online.
 
-6. Once you're logged in, go to the Content-Manager to add new entries. You can
+7. Once you're logged in, go to the Content-Manager to add new entries. You can
 also edit the Content-Types in the Content-Type Builder. Note that any changes
 you make here will NOT reflect on the production instance running on the Netsoc
 server.
